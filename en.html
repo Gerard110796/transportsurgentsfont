@@ -52,18 +52,23 @@
 
   <section id="contacte">
     <h2>Contact us</h2>
-    <form>
-      <label for="nom">Name:</label>
-      <input type="text" id="nom" name="nom" required>
+    <form action="https://formsubmit.co/gerard115br@hotmail.com" method="POST">
+  <label for="nom">Name:</label>
+  <input type="text" id="nom" name="name" required>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
 
-      <label for="missatge">Message:</label>
-      <textarea id="missatge" name="missatge" required></textarea>
+  <label for="missatge">Message:</label>
+  <textarea id="missatge" name="message" required></textarea>
 
-      <button type="submit">Send</button>
-    </form>
+  <!-- Configuració invisible -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://gerard110796.github.io/transportsurgentsfont/gracies.html">
+
+  <button type="submit">Send</button>
+</form>
+
   </section>
   
   <dic class="mapa"
