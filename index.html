@@ -14,7 +14,7 @@
     <nav id="nav">
       <ul>
         <li><a href="#serveis">Serveis</a></li>
-        <li><a href="#contacte">Contacte</a></li>
+        <li><a href="#contacte">Contacte</a></li>Ara:
       </ul>
     </nav>
 
@@ -50,18 +50,23 @@
 
   <section id="contacte">
     <h2>Contacta'ns</h2>
-    <form>
-      <label for="nom">Nom:</label>
-      <input type="text" id="nom" name="nom" required />
+    <form action="https://formsubmit.co/gerard115br@hotmail.com.com" method="POST">
+  <label for="nom">Nom:</label>
+  <input type="text" id="nom" name="name" required>
 
-      <label for="email">Correu electrònic:</label>
-      <input type="email" id="email" name="email" required />
+  <label for="email">Correu electrònic:</label>
+  <input type="email" id="email" name="email" required>
 
-      <label for="missatge">Missatge:</label>
-      <textarea id="missatge" name="missatge" required></textarea>
+  <label for="missatge">Missatge:</label>
+  <textarea id="missatge" name="message" required></textarea>
 
-      <button type="submit">Enviar</button>
-    </form>
+  <!-- Evita el captcha i redirigeix després d'enviar -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://gerard110796.github.io/transportsurgentsfont/gracies.html">
+
+  <button type="submit">Enviar</button>
+</form>
+
   </section>
 
   <div class="mapa">
